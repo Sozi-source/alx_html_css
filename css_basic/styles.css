@@ -1,0 +1,25 @@
+body{display:flex; 
+    flex-direction: column;
+    background-color: azure;
+    border: 0dvi;
+}
+
+main {display:flex;
+    flex-direction: row;
+    flex:auto;
+}
+
+article {flex: 2;
+       overflow-y: auto;
+}
+
+aside {flex:1;
+    overflow-y: auto;
+    color: blueviolet;
+}
+.logo {
+    font-size: 4rem; /* Make the logo much bigger */
+    font-weight: bold; /* Keep it bold for emphasis */
+    margin-right: 50px; /* Add space between the logo and the text */
+    vertical-align: middle; /* Ensure it aligns properly with the text */
+}

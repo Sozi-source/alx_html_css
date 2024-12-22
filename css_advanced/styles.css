@@ -1,0 +1,233 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f4f4f4; /* Example background color */
+    color: #333; /* Default text color */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Background color for the header */
+    padding: 20px 40px;
+  }
+  
+  header .logo {
+    width: 120px; /* Adjust according to your logo size */
+  }
+  
+  header .navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  header .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header .navbar a:hover {
+    color: #0073e6; /* Example hover color */
+  }
+  
+  /* Banner Section */
+  .banner {
+    background-image: url('path_to_banner_image.jpg'); /* Path to the banner image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 60px 20px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  /* Quote Section */
+  .quote {
+    background-color: #f9f9f9; /* Light background for quotes */
+    text-align: center;
+    padding: 50px 20px;
+    font-style: italic;
+  }
+  
+  .quote blockquote {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .quote footer {
+    font-size: 1.125rem;
+    color: #555;
+  }
+  
+  /* Videos List Section */
+  .videos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .videos-list .video-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .videos-list .video-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .videos-list .video-item h3 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+  /* Membership Section */
+  .membership {
+    background-color: #0073e6; /* Blue background */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .membership h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .membership p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .membership button {
+    background-color: #fff;
+    color: #0073e6;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .membership button:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    background-color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .faq h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .faq .faq-item {
+    background-color: #f4f4f4;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .faq .faq-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .faq .faq-item p {
+    font-size: 1.125rem;
+    margin-top: 10px;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner h1 {
+      font-size: 2.5rem;
+    }
+  
+    .banner p {
+      font-size: 1.25rem;
+    }
+  
+    .videos-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .membership h2 {
+      font-size: 2rem;
+    }
+  
+    .faq .faq-item h3 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding: 15px 20px;
+    }
+  
+    .banner h1 {
+      font-size: 2rem;
+    }
+  
+    .banner p {
+      font-size: 1rem;
+    }
+  
+    .videos-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .membership h2 {
+      font-size: 1.75rem;
+    }
+  
+    .faq .faq-item h3 {
+      font-size: 1.125rem;
+    }
+  }

@@ -1,0 +1,156 @@
+header {
+    background-image: url(images/headphones_hero_1.jpg);
+    height: 800px;
+}
+
+.navbar {
+    padding: 20px;
+    border-bottom:none;
+    justify-content: flex-end;
+    padding: 20;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding:0%;
+    margin: 0%;
+    float: right;
+
+}
+
+a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.logo {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 50px;
+    height: auto;
+}
+
+.main {
+    margin-top: 150px;
+}
+
+.button {
+    margin-top: 30px;
+    color: white;
+    border-radius: 15px;
+    background-color: brown;
+    font-size: 20px;
+    border: solid brown;
+    
+}
+.button-container {
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.highlight {
+    font-size: larger;
+}
+
+.content {
+    margin-top: 300px;
+}
+.content p:first-of-type{
+    margin-top: 200px;
+}
+a:hover {
+    color: brown;
+}
+
+.section {
+    margin-top: 100px;
+}
+.service {
+    margin-top: 350px;
+}
+
+.results-section {
+    position: relative;
+    background-image: url(images/headphones_hero_2.jpg);
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+}
+.results-heading {
+    color: white;
+}
+
+.results-description {
+    color: white;
+}
+
+/* pentagones sections */
+.pentagone-container {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin-bottom: 300px;
+}
+
+.pentagone {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    bottom: 50;
+}
+
+.pentagone span {
+    position: absolute;
+    padding: 80px 40px;
+    color: white;
+}
+
+.contact-us-section {
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-us-heading {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.form-button {
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 20px 10px;
+    border: 0px;
+}
+
+.svg {
+    font-size: 15px;
+    display: flex;
+    float: right;
+    gap: 20px;
+}
+
+.footer-section {
+    background-color: rgb(151, 151, 155);
+    margin-top: 30px;
+}

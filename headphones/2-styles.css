@@ -77,5 +77,45 @@ a:hover {
     margin-top: 100px;
 }
 .service {
-    margin-top: 150px;
+    margin-top: 350px;
 }
+
+.results-section {
+    position: relative;
+    background-image: url(images/headphones_hero_2.jpg);
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+}
+.results-heading {
+    color: white;
+}
+
+.results-description {
+    color: white;
+}
+
+/* pentagones sections */
+.pentagone-container {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    margin-bottom: 300px;
+}
+
+.pentagone {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    bottom: 50;
+}
+
+.pentagone span {
+    position: absolute;
+    padding: 80px 40px;
+    color: white;

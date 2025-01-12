@@ -156,25 +156,6 @@ a:hover {
     margin-top: 30px;
 }
 
-Share
-
-
-You said:
-the web page must switch to the mobile version when the screen width is 480px or less
-ChatGPT said:
-ChatGPT
-To ensure that your webpage switches to a mobile-friendly version when the screen width is 480px or less, you can use CSS media queries. Here's how you can do it:
-
-Example Code
-html
-Copy code
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Web Page</title>
-  <style>
     /* Default styles (desktop version) */
     body {
       font-family: Arial, sans-serif;

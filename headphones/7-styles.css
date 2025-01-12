@@ -103,7 +103,9 @@ a:hover {
     justify-content:center;
     gap: 50px;
     margin-bottom: 300px;
-}
+    transform: translateY(30px);
+    
+    }
 
 .pentagone {
     position: relative;
@@ -113,6 +115,9 @@ a:hover {
     margin: 0;
     padding: 0;
     bottom: 50;
+    transform: translateY(30px);
+    
+    
 }
 
 .pentagone span {
